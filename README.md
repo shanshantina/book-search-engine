@@ -25,7 +25,7 @@
 
    [Book Search Engine](https://book-search-engine-shanshanxu.herokuapp.com/)
 
-   ![demo](./public/assets/image/demo.gif)
+   ![demo](./assets/demo.gif)
 
   Book Search Engine is a Google Books API search engine: 
   1. When user loads the search engine, then user is presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button. 
@@ -34,7 +34,7 @@
   4. When user clicks on the Login/Signup menu option, then a modal appears on the screen with a toggle between the option to log in or sign up.
   5. When the toggle is set to Signup, then user is presented with three inputs for a username, an email address, and a password, and a signup button.
   6. When the toggle is set to Login, then user is presented with two inputs for an email address and a password and login button.
-  7. when user enters a valid email address and create a password and click on the signup button, then my user account is created and I am logged in to the site.
+  7. when user enters a valid email address and create a password and click on the signup button, then user account is created and logged in to the site.
   8. when user enters my account’s email address and password and click on the login button, then user the modal closes and is logged in to the site.
   9. when user is logged in to the site, then the menu options change to Search for Books, an option to see my saved books, and Logout.
   10. When user is logged in and enter a search term in the input field and click the submit button, then user is presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book to my account.
