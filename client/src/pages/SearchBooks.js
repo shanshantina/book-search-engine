@@ -54,6 +54,7 @@ const SearchBooks = () => {
         title: book.volumeInfo.title,
         description: book.volumeInfo.description,
         image: book.volumeInfo.imageLinks?.thumbnail || "",
+        link: book.volumeInfo.canonicalVolumeLink,
       }));
 
       setSearchedBooks(bookData);
@@ -134,6 +135,9 @@ const SearchBooks = () => {
                 <Card.Body>
                   <Card.Title>{book.title}</Card.Title>
                   <p className="small">Authors: {book.authors}</p>
+                  <a href={book.link} target="_blank" rel="noreferrer">
+                    Book Site on Google
+                  </a>
                   <Card.Text>{book.description}</Card.Text>
                   {Auth.loggedIn() && (
                     <Button
